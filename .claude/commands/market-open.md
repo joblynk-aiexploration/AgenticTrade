@@ -40,8 +40,25 @@ If also blocked, queue the stop in TRADE-LOG as "PDT-blocked, set tomorrow AM".
 STEP 6 — Append each trade to memory/TRADE-LOG.md (matching existing format):
 Date, ticker, side, shares, entry price, stop level, thesis, target, R:R.
 
-STEP 7 — Notification: only if a trade was placed.
-  bash scripts/clickup.sh "<tickers, shares, fill prices, one-line why>"
+STEP 7 — Notification: ALWAYS send, every run, professionally formatted.
+First line = plain-text title (no markdown symbols), rest = full markdown
+report. Follow this exact structure:
+
+  bash scripts/clickup.sh "Market-Open Report — MMM DD, YYYY
+
+  ## Trades Executed
+  | Ticker | Side | Shares | Entry | Stop | Target | R:R |
+  |---|---|---|---|---|---|---|
+  | X | buy | N | \$X | \$X | \$X | X:1 |
+  (or: No trades executed today — list which candidates failed which
+  buy-side gate checks.)
+
+  ## Buy-Side Gate Results
+  - TICKER: ✅/❌ per check (positions cap, weekly cap, position size,
+    catalyst documented, PDT room)
+
+  ## Decision Summary
+  one-line summary of the outcome."
 
 When done, remind the user to commit memory/TRADE-LOG.md if any trades fired —
 local mode does not auto-commit.

@@ -50,8 +50,21 @@ if not at -7% yet. Document reasoning in TRADE-LOG.
 STEP 6 — Optional intraday research via Perplexity if something is moving
 sharply with no obvious cause. Append afternoon addendum to RESEARCH-LOG.
 
-STEP 7 — Notification: only if action was taken.
-  bash scripts/clickup.sh "<action summary>"
+STEP 7 — Notification: ALWAYS send, every run, professionally formatted.
+First line = plain-text title (no markdown symbols), rest = full markdown
+report. Follow this exact structure:
+
+  bash scripts/clickup.sh "Midday Report — MMM DD, YYYY
+
+  ## Actions Taken
+  - X (or: No action needed — all positions within thresholds.)
+
+  ## Current Positions
+  | Ticker | Entry | Now | Unrealized P&L | Stop |
+  |---|---|---|---|---|
+
+  ## Notes
+  one-paragraph plain-english summary."
 
 STEP 8 — COMMIT AND PUSH (if any memory files changed):
   git add memory/TRADE-LOG.md memory/RESEARCH-LOG.md

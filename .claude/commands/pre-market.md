@@ -40,8 +40,35 @@ STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md:
 - Risk factors for the day
 - Decision: trade or HOLD (default HOLD — patience > activity)
 
-STEP 5 — Notification: silent unless urgent.
-  bash scripts/clickup.sh "<one line>"
+STEP 5 — Notification: ALWAYS send, every run, professionally formatted.
+First line = plain-text title (no markdown symbols), rest = full markdown
+report. Follow this exact structure:
+
+  bash scripts/clickup.sh "Pre-Market Report — MMM DD, YYYY
+
+  ## Account Snapshot
+  | Metric | Value |
+  |---|---|
+  | Equity | \$X |
+  | Cash | \$X (X%) |
+  | Buying Power | \$X |
+  | Day-Trade Count | N/3 |
+
+  ## Market Context
+  - **VIX:** X
+  - **S&P 500 Futures:** X
+  - **Sector Momentum:** X
+  - **Key Catalysts Today:** X
+
+  ## Trade Ideas
+  1. **TICKER** — catalyst: X, entry \$X, stop \$X, target \$X (R:R X:1)
+  (or: No qualifying trade ideas today — list why.)
+
+  ## Risk Factors
+  - X
+
+  ## Decision
+  **TRADE / HOLD** — one-line rationale."
 
 When done, remind the user to commit memory/RESEARCH-LOG.md if they're happy
 with the entry — local mode does not auto-commit.

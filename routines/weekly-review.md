@@ -58,14 +58,36 @@ STEP 5 — If a rule needs to change (proven out for 2+ weeks, or failed
 badly), also update memory/TRADING-STRATEGY.md and call out the change
 in the review.
 
-STEP 6 — Send ONE ClickUp message. <= 15 lines:
-  bash scripts/clickup.sh "Week ending MMM DD
-  Portfolio: \$X (±X% week, ±X% phase)
-  vs S&P 500: ±X%
-  Trades: N (W:X / L:Y / open:Z)
-  Best: SYM +X%  Worst: SYM -X%
-  One-line takeaway: <...>
-  Grade: <letter>"
+STEP 6 — Send ONE ClickUp message, ALWAYS, professionally formatted.
+First line = plain-text title (no markdown symbols), rest = full markdown
+report. Follow this exact structure:
+
+  bash scripts/clickup.sh "Weekly Review — Week Ending MMM DD, YYYY
+
+  ## Stats
+  | Metric | Value |
+  |---|---|
+  | Portfolio | \$X (±X% week, ±X% phase) |
+  | vs S&P 500 | ±X% |
+  | Trades | N (W:X / L:Y / open:Z) |
+  | Win Rate | X% |
+  | Best Trade | SYM +X% |
+  | Worst Trade | SYM -X% |
+  | Profit Factor | X.XX |
+
+  ## What Worked
+  - X
+
+  ## What Didn't Work
+  - X
+
+  ## Key Lessons
+  - X
+
+  ## Adjustments for Next Week
+  - X
+
+  ## Overall Grade: X"
 
 STEP 7 — COMMIT AND PUSH (mandatory):
   git add memory/WEEKLY-REVIEW.md memory/TRADING-STRATEGY.md

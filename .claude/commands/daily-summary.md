@@ -31,14 +31,32 @@ STEP 4 — Append EOD snapshot to memory/TRADE-LOG.md:
 | Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
 **Notes:** one-paragraph plain-english summary.
 
-STEP 5 — Send ONE ClickUp message (always, even on no-trade days). <= 15 lines:
-  bash scripts/clickup.sh "EOD MMM DD
-  Portfolio: \$X (±X% day, ±X% phase)
-  Cash: \$X
-  Trades today: <list or none>
-  Open positions:
-    SYM ±X.X% (stop \$X.XX)
-  Tomorrow: <one-line plan>"
+STEP 5 — Send ONE ClickUp message, ALWAYS, professionally formatted.
+First line = plain-text title (no markdown symbols), rest = full markdown
+report. Follow this exact structure:
+
+  bash scripts/clickup.sh "Daily Summary — MMM DD, YYYY (Day N)
+
+  ## Portfolio Snapshot
+  | Metric | Value |
+  |---|---|
+  | Portfolio | \$X |
+  | Cash | \$X (X%) |
+  | Day P&L | ±\$X (±X%) |
+  | Phase P&L | ±\$X (±X%) |
+
+  ## Trades Today
+  - X (or: None)
+
+  ## Open Positions
+  | Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+  |---|---|---|---|---|---|---|
+
+  ## Notes
+  one-paragraph plain-english summary.
+
+  ## Tomorrow's Plan
+  one-line plan."
 
 When done, remind the user this commit is important — tomorrow's Day P&L
 calculation depends on memory/TRADE-LOG.md persisting. Local mode does not

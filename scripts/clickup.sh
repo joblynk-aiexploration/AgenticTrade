@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Notification wrapper. Creates a Task in a ClickUp List.
 # Usage: bash scripts/clickup.sh "<message>"
+# First line of the message becomes the task title (plain text).
+# The full message becomes the task's markdown-rendered description.
 # If credentials are unset, appends to a local fallback file.
 
 set -euo pipefail
@@ -37,11 +39,12 @@ if [[ -z "${CLICKUP_API_KEY:-}" || -z "${CLICKUP_LIST_ID:-}" ]]; then
 fi
 
 payload="$(python3 -c "
-import json, sys
+import json, re, sys
 msg = sys.argv[1]
 first_line = msg.splitlines()[0] if msg.splitlines() else msg
-name = first_line[:100]
-print(json.dumps({'name': name, 'description': msg}))
+name = re.sub(r'^[#>\s\-\*]+', '', first_line)
+name = re.sub(r'\*\*', '', name).strip()[:120]
+print(json.dumps({'name': name, 'markdown_description': msg}))
 " "$msg")"
 
 curl -fsS -X POST \
