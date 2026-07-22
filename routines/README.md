@@ -19,7 +19,7 @@ everything it did evaporates.
 3. Set these as environment variables on each routine (not in a `.env` file):
    `ALPACA_API_KEY`, `ALPACA_SECRET_KEY`, `ALPACA_ENDPOINT`,
    `ALPACA_DATA_ENDPOINT`, `PERPLEXITY_API_KEY`, `PERPLEXITY_MODEL`,
-   `CLICKUP_API_KEY`, `CLICKUP_WORKSPACE_ID`, `CLICKUP_CHANNEL_ID`.
+   `CLICKUP_API_KEY`, `CLICKUP_LIST_ID`.
 
 ## Cron schedules (America/Chicago — adjust for your timezone)
 
