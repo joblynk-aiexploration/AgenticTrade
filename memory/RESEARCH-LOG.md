@@ -60,3 +60,33 @@ TRADE or HOLD (default HOLD if no edge)
 
 ### Decision
 **HOLD** — Day 0, no positions, no urgency. XOM/Energy is the one idea with a real, sustained catalyst (sector momentum + oil), but today's specific quote data is stale (run outside actual pre-market hours) so no entry is taken now. Re-validate with a live quote at the next real market-open run before considering a buy.
+
+## 2026-07-23 — Pre-market Research
+
+**Note:** This run is a diagnostic test of the New Routine creation flow (not a real trading decision), triggered via a one-off scheduled prompt with inline credentials written to a local `.env` (gitignored, never staged).
+
+### Account
+- Equity: $100,000.12
+- Cash: $100,000.12 (100%)
+- Buying power: $400,000.48
+- Daytrade count: 0
+
+### Market Context
+- WTI / Brent: WTI ~$86-88/bbl, Brent ~$93-95/bbl — both still elevated, extending yesterday's Iran-conflict/shipping-disruption spike
+- S&P 500 futures: ~7,516-7,540, roughly flat to slightly down vs prior close depending on feed/timestamp
+- VIX: readings scattered 16.6-21 across sources/times; broadly elevated but pulling back off yesterday's spike
+- Today's catalysts: Tesla and Microsoft beat expectations after hours — supporting sentiment; Amazon, Intel, AT&T earnings due today; Intel flagged as "make-or-break" for AI-chip turnaround narrative; oil's climb to one-month highs reviving inflation concerns
+- Earnings before open: AT&T; Amazon/Intel report later in the session
+- Economic calendar: Initial jobless claims 8:30 AM ET, New Home Sales 10:00 AM ET, ECB rate decision (expected hold) ~8:15 AM ET
+- Sector momentum: Energy still sector leader YTD on sustained oil strength; Tech in focus pending Amazon/Intel earnings reaction
+
+### Trade Ideas
+- No new idea logged — this is a diagnostic test run of the routine-creation flow, not a live research pass. Day 1, still no positions; re-run the standard pre-market workflow at real market open before evaluating any entry.
+
+### Risk Factors
+- Test run only — market context above not used for any live sizing/entry decision
+- Continued oil-driven inflation risk; ECB and jobless-claims prints could move rates-sensitive sectors
+- Intel/Amazon earnings today carry outsized overnight gap risk
+
+### Decision
+**HOLD** — diagnostic test of the routine-creation flow; no trade evaluated or placed.
