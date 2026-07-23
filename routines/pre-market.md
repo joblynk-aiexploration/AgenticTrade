@@ -9,7 +9,7 @@ IMPORTANT — ENVIRONMENT VARIABLES:
 - Every API key is ALREADY exported as a process env var: ALPACA_API_KEY,
   ALPACA_SECRET_KEY, ALPACA_ENDPOINT, ALPACA_DATA_ENDPOINT,
   PERPLEXITY_API_KEY, PERPLEXITY_MODEL, CLICKUP_API_KEY,
-  CLICKUP_LIST_ID.
+  CLICKUP_LIST_ID, GH_TOKEN.
 - There is NO .env file in this repo and you MUST NOT create, write, or
   source one. The wrapper scripts read directly from the process env.
 - If a wrapper prints "KEY not set in environment" -> STOP, send one
@@ -23,6 +23,14 @@ IMPORTANT — ENVIRONMENT VARIABLES:
 IMPORTANT — PERSISTENCE:
 - Fresh clone. File changes VANISH unless committed and pushed.
   MUST commit and push at STEP 6.
+
+STEP 0 — Ensure repo is present (fallback if platform auto-clone failed):
+  if [[ ! -f CLAUDE.md ]]; then
+    : "${GH_TOKEN:?GH_TOKEN not set in environment}"
+    git clone --depth 1 https://x-access-token:${GH_TOKEN}@github.com/joblynk-aiexploration/AgenticTrade.git /tmp/repo-clone
+    cp -a /tmp/repo-clone/. .
+    rm -rf /tmp/repo-clone
+  fi
 
 STEP 1 — Read memory for context:
 - memory/TRADING-STRATEGY.md
@@ -44,6 +52,8 @@ bash scripts/perplexity.sh "<query>" for each:
 - "Economic calendar today CPI PPI FOMC jobs data"
 - "S&P 500 sector momentum YTD"
 - News on any currently-held ticker
+- News/catalysts today on each Standing Watchlist ticker (see
+  memory/TRADING-STRATEGY.md): GOOGL, MSFT, NVDA, TSLA, AMD, INTC, META, NET
 
 If Perplexity exits 3, fall back to native WebSearch and note the
 fallback in the log entry.
@@ -51,7 +61,9 @@ fallback in the log entry.
 STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md:
 - Account snapshot (equity, cash, buying power, daytrade count)
 - Market context (oil, indices, VIX, today's releases)
-- 2-3 actionable trade ideas WITH catalyst + entry/stop/target
+- 2-3 actionable trade ideas WITH catalyst + entry/stop/target — prioritize
+  Standing Watchlist tickers when they have a real, specific catalyst, but
+  they get NO exemption from the normal buy-side gate
 - Risk factors for the day
 - Decision: trade or HOLD (default HOLD — patience > activity)
 

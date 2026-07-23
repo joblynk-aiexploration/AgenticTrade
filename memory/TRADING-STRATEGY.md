@@ -27,3 +27,19 @@ Beat the S&P 500 over the challenge window. Stocks only — no options, ever.
 - Sector in momentum?
 - Stop level (7-10% below entry)
 - Target (min 2:1 R:R)
+
+## Standing Watchlist
+Check catalysts/news on these tickers every pre-market run, in addition to
+general sector research. No special treatment — same buy-side gate as any
+other candidate (catalyst required, position caps, 20% max size, 3/week cap).
+- GOOGL (Alphabet)
+- MSFT (Microsoft)
+- NVDA (Nvidia)
+- TSLA (Tesla)
+- AMD
+- INTC (Intel)
+- META (Meta Platforms)
+- NET (Cloudflare)
+
+Note: SpaceX is privately held — no public ticker, not tradeable on Alpaca,
+excluded from this list.
