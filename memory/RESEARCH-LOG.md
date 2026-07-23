@@ -92,3 +92,36 @@ TRADE or HOLD (default HOLD if no edge)
 
 ### Decision
 **HOLD** — Day 1 of live trading. XOM has a real, sustained catalyst (sector leadership + oil bid + Iran) but running the buy pre-open into a soft-futures tape without a live confirming quote violates entry discipline. Preferred action: place XOM as first candidate for the intraday/next-run once oil holds >$85 WTI at cash open and the ticker prints an intraday setup. Patience > activity — better to enter on confirmation than force Day 1.
+
+## 2026-07-23 — Pre-market Research
+
+### Account
+- Equity: $100,000.12
+- Cash: $100,000.12 (100%)
+- Buying power: $100,000.12 (cash account, 1x multiplier — note: yesterday's log noted $400k BP, but Alpaca now reports 1x cash multiplier)
+- Daytrade count: 0/3
+
+### Market Context
+- WTI / Brent: WTI ~$88.4/bbl (holding above $87 intraday range 87.4–90.7); Brent ~$94/bbl with an intraday spike quoted as high as $98.49 (6-week high) on Iran/Strait of Hormuz escalation
+- S&P 500 futures: ~7,510 at 6:15 AM ET, down ~0.40% (ES −29pts) — Reuters attributes weakness to Big Tech AI-capex jitters + oil spike
+- VIX: 16.64 spot (Cboe) — low/moderate, contained despite geopolitical bid in oil
+- Today's catalysts: (1) INTC AMC earnings (make-or-break turnaround print, drives semi tape into Fri); (2) Iran/Strait of Hormuz "still effectively closed" narrative supporting defense + energy; (3) GOOGL/TSLA post-close reaction — Alphabet raised full-year 2026 capex to $180–190B (single-year record), pressuring AI-capex complex; (4) LMT/RTX pre-market prints with defense tailwind
+- Earnings before open: TMO, TMUS, CMCSA, BX, UNP, HON, RTX, LMT, DOW, KLA, SAP, CLF, NEM (128 total reporters today); AMC: INTC, NEM
+- Economic calendar: Initial Jobless Claims 8:30 AM ET, consensus 211K vs 208K prior (4-wk avg 214.25K). No CPI/PPI/FOMC today. FOMC July 28 approaching.
+- Sector momentum (YTD via S&P 500): Energy +30.6% (clear leader), Industrials +16.4%, Real Estate +16.2%, Tech +16.0%, Staples +10.6%, Materials +9.4%; Consumer Discretionary/Comms/Financials laggards. SSGA momentum: Energy + Tech lead earnings sentiment; defensives lag on revisions.
+
+### Trade Ideas
+1. **XOM** — catalyst: Iran/Strait of Hormuz supply-disruption bid (Brent print of $98 intraday, WTI $88+), aligned with Energy's #1 YTD sector rank (+30.6%). Setup: on confirmed strength at cash open, size ~15% (~$15,000, ~103 shares near $145). Stop: −7% (hard). Target: +15% (2:1 R:R). Contingent on WTI holding >$85 and XOM printing an above-VWAP hold in the first 15 min. If oil retraces sharply pre-bell on any de-escalation headline, stand down.
+2. **LMT** — catalyst: pre-market earnings + Iran replenishment-demand narrative (Tomahawk depletion story). Do NOT pre-position; wait for print reaction to define a 2:1 setup. Re-evaluate on the next run.
+3. **Avoid:** mega-cap tech (GOOGL/TSLA overhang, INTC binary AMC), high-beta/momentum names (Momentum factor still in drawdown per prior notes).
+
+### Risk Factors
+- AI-capex reset after GOOGL/TSLA still fresh; any mega-cap-tech-linked entry has gap-continuation risk
+- Oil rally is geopolitics-driven, not demand-driven — reversal on any Iran de-escalation headline is fast and sharp
+- INTC AMC print adds noise to semi tape into the close and Friday's open
+- Jobless claims 8:30 AM ET could jolt rates/growth if it surprises far from 211K consensus
+- FOMC July 28 approaching (5 sessions out) — event risk building
+- Alpaca now reporting 1x multiplier (cash account) → buying power = cash only; no margin cushion for adding on weakness
+
+### Decision
+**HOLD** — Day 2, still no positions. XOM remains the highest-quality setup (real catalyst + sector leadership) but discipline says enter on live confirmation intraday, not pre-open into a −0.4% futures tape and a jobless-claims print at 8:30. If XOM opens strong, oil holds >$85 WTI, and the first 15-min bar prints above VWAP, execute the 15%/−7%/+15% plan on the next run. Otherwise, keep powder dry into next week's FOMC.
