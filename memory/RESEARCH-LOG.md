@@ -167,3 +167,46 @@ TRADE or HOLD (default HOLD if no edge)
 
 ### Decision
 **HOLD** — Day 3, still 100% cash. Multiple crosswinds today (ceasefire oil unwind + tariff expiry + FOMC 2 sessions out + tech capex reset) mean no clean 2:1 setup. Patience is the trade. Re-evaluate after FOMC July 28-29 when direction of rate path is set and one macro overhang is off the table. Preserving all 3 day-trade slots and full buying power for a higher-probability window.
+
+## 2026-07-24 — Pre-market Research (Run 2)
+
+### Account
+- Equity: $100,000.10
+- Cash: $100,000.10 (100%)
+- Buying power: $400,000.40 (4x margin)
+- Daytrade count: 0/3
+
+### Market Context
+- WTI / Brent: DATA CONFLICT persists — oilprice.com WTI $68.77 / Brent $71.86 (down sharply on Iran ceasefire narrative), TradingEconomics Brent $78.89, Investing.com WTI futures $72.27. Bias: geopolitical premium collapsing; oil trending lower vs. prior week's $87+/$94+ prints.
+- S&P 500 futures: E-mini prev close ~7,551; overnight action mixed/slightly-lower — AI-tech selloff continuing to weigh
+- VIX: 20.95 (MarketWatch, +12% on session) — highest reading in recent runs; other feeds 16-19 range; call it moderate-to-elevated with upward bias today
+- Today's catalysts: (1) INTC AMC print 7/23 tape still digesting — 18A yield improvements + Google Cloud tie-up + first external foundry commit noted; (2) AI capex overhang (GOOGL fell ~7% post-print, continuing to bleed into hyperscaler complex); (3) Oil unwind on Iran ceasefire; (4) Section 122 tariff deadline noise; (5) VZ/AXP/HCA earnings before open
+- Earnings before open: VZ, AXP, HCA, CHTR, FCNCA, GNTX, SXT (23-38 total reporters depending on source); AMC continuation of INTC/NEM digestion
+- Economic calendar: NO CPI/PPI/FOMC today. Jobless claims already 8:30. **FOMC July 28-29 next week (Mon-Tue) — 2 sessions out**, event risk building.
+- Sector momentum YTD (S&P 500 as of 7/17): Energy +20.7%, Materials +19.3%, Staples +16.7%, Industrials +14%, Healthcare +13.8%, Financials +13.7%; Comms +10.5%, Discretionary +8.6%, Tech +7.7% (weakening), Utilities/Real Estate mid-pack. Momentum factor still in drawdown (-10.5% from June peak).
+
+### Standing Watchlist Catalyst Check
+- GOOGL: post-Q2 capex hike ($175-190B guide) — Morgan Stanley reaffirmed OW $210 tgt, but tape is knife-catching. AVOID.
+- MSFT: no specific catalyst; caught in AI-capex reset backdraft.
+- NVDA: constructive read-through from GOOGL Vera Rubin NVL72 orders; no fresh headline; wait for post-FOMC setup.
+- TSLA: Q2 EPS miss (7/22 — 33c vs 51c est) still weighing; -6% follow-through. AVOID.
+- AMD: earnings scheduled this week (varying source dates); binary event, stand aside.
+- INTC: AMC 7/23 print digesting — turnaround thesis intact but tape unproven; wait for confirmation.
+- META: no dedicated catalyst; competitive-pressure headlines from GOOGL implicit.
+- NET: no specific setup; broader cloud/AI backdrop constructive but no trigger.
+
+### Trade Ideas
+1. **No qualifying entry today.** Same read as earlier run: XOM/Energy idea invalidated by oil unwind (Brent snapshot ~$71); watchlist tech in mid-drawdown; FOMC 2 sessions out.
+2. Industrials (XLI theme) remains stealth leader with 7.2% one-month sector gain — track for a single-name setup POST-FOMC once rate path is set.
+3. Avoid all watchlist Big Tech into a moderate/elevated VIX print + FOMC risk.
+
+### Risk Factors
+- Oil data conflicts across feeds — geopolitical premium unwinding but pace uncertain; sector sees whipsaw risk
+- VIX ticking higher (20.95 on one feed) — moderate-to-elevated stress reading right before FOMC
+- FOMC July 28-29 = binary rate-path event in 2 sessions; front-running with zero positions is worse than waiting
+- AI-capex reset ongoing (GOOGL -7%, TSLA -6% follow-through) — mega-cap tech gap risk elevated
+- Section 122 tariff deadline = headline-driven single-day chop
+- Momentum factor drawdown (-10.5% since June) continues; high-beta unfavorable
+
+### Decision
+**HOLD** — Day 3, 100% cash, all 3 day-trade slots preserved. Multiple crosswinds (oil unwind + VIX bid + FOMC in 2 sessions + AI-capex reset) make no clean 2:1 setup available. Patience > activity. Re-evaluate after FOMC July 28-29 when rate direction clears and one macro overhang is off the table.
