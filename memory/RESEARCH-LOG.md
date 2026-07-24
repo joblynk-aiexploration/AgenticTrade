@@ -125,3 +125,45 @@ TRADE or HOLD (default HOLD if no edge)
 
 ### Decision
 **HOLD** — Day 2, still no positions. XOM remains the highest-quality setup (real catalyst + sector leadership) but discipline says enter on live confirmation intraday, not pre-open into a −0.4% futures tape and a jobless-claims print at 8:30. If XOM opens strong, oil holds >$85 WTI, and the first 15-min bar prints above VWAP, execute the 15%/−7%/+15% plan on the next run. Otherwise, keep powder dry into next week's FOMC.
+
+## 2026-07-24 — Pre-market Research
+
+### Account
+- Equity: $100,000.10
+- Cash: $100,000.10 (100%)
+- Buying power: $400,000.40 (4x margin multiplier restored)
+- Daytrade count: 0/3
+
+### Market Context
+- WTI / Brent: CONFLICTING data — oilprice.com shows WTI $71.10 (−2.88%), Brent $74.76 (−3.01%) with sharp de-escalation move; Fort Washington July monthly notes "US and Iran signed a ceasefire agreement, reopening the Strait of Hormuz." Other feeds still cite $85+/$94+ (likely stale). Base case: geopolitical risk premium is unwinding fast.
+- S&P 500 futures: E-mini prev close ~7,551 (Barchart ESM26). Latest snapshot Robinhood 7,525 for 7/23 close; futures flat-to-slightly-lower overnight.
+- VIX: 16-20 range across sources (MarketWatch 20.95, YCharts 16.15, Investing.com 19.36) — call it low-to-moderate, benign.
+- Today's catalysts: (1) potential Iran ceasefire → oil unwind → energy sector reversal risk; (2) US Section 122 tariff deadline / expiry (July 24) — trade-policy headline risk; (3) Japan CPI + flash PMIs overnight; (4) ongoing AI-capex digestion post-GOOGL; (5) INTC AMC print (7/23) tape still in play.
+- Earnings before open: AXP, VZ, HCA, CHTR (~mid-day), FCNCA, WF, GNTX, NEM continuation; AMD listed for 7/24 (time varies by source).
+- Economic calendar: NO CPI/PPI/FOMC today. Next CPI is Aug 12. **FOMC July 28-29 next week** — 2 sessions out, event risk building fast.
+- Sector momentum YTD (S&P 500 as of 7/17): Energy +20.7% (leader, but softening if ceasefire holds), Industrials +19.3%, Tech +16.7%, Real Estate +13.8%, Materials +13.7%, Staples +10.5%, Utilities +8.6%, Healthcare +7.7%; Financials +3.2%, Comms +2.7%, Discretionary −0.1% laggards. Momentum Index in drawdown (-10.5% since June peak).
+
+### Standing Watchlist Catalyst Check
+- GOOGL: 3rd straight red day after Q2 capex hike ($175B+ guide) — falling into support ~$314-315. NOT a buy — knife-catching into AI-capex reset.
+- MSFT: no specific catalyst; broad AI-monetization overhang.
+- NVDA: Alphabet ordering Vera Rubin NVL72 alongside Blackwell/Hopper — constructive read-through, no fresh headline.
+- TSLA: Q2 EPS miss (7/22) still weighing; no positive catalyst today.
+- AMD: earnings this week (date varies by source); binary event risk, stand aside.
+- INTC: AMC earnings 7/23 — gap-continuation risk still live pre-open; wait for tape to digest.
+- META: no dedicated catalyst; competitive-pressure headlines on GOOGL implicitly relevant.
+- NET: no specific catalyst; broader cloud/AI backdrop constructive but no setup.
+
+### Trade Ideas
+1. No qualifying entry today. Prior XOM/Energy idea is invalidated by potential Iran ceasefire + oil down 3% — cannot enter a sector rotation on a day the catalyst reverses.
+2. Industrials (XLI theme, e.g., HON) is now the stealth YTD leader with no headline risk today, but no specific catalyst for a single-name entry — track for setup next week post-FOMC.
+3. Avoid all watchlist tech names — AI-capex reset ongoing, single-name gap risk elevated, FOMC in 2 sessions.
+
+### Risk Factors
+- Iran/Hormuz ceasefire data conflicts across sources — oil could snap back if de-escalation is unconfirmed; risk of being caught off-sides in either direction
+- Section 122 tariff expiry today = binary headline risk
+- FOMC July 28-29 in 2 sessions — front-running rate reactions is a losing game with zero positions
+- Momentum-factor drawdown (-10.5% from June peak) continues; high-beta names remain unfavorable
+- GOOGL/TSLA post-earnings weakness bleeding into whole mega-cap complex
+
+### Decision
+**HOLD** — Day 3, still 100% cash. Multiple crosswinds today (ceasefire oil unwind + tariff expiry + FOMC 2 sessions out + tech capex reset) mean no clean 2:1 setup. Patience is the trade. Re-evaluate after FOMC July 28-29 when direction of rate path is set and one macro overhang is off the table. Preserving all 3 day-trade slots and full buying power for a higher-probability window.
